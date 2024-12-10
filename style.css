@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "League Spartan", serif;
+     Font-size: 15px
+}
+
+section{
+    background-image: url('images/bg-pattern-bottom-desktop.svg');
+   
+    background-position:right bottom;
+    background-repeat: no-repeat,no-repeat;
+    height: 80vh;
+   margin:100px 200px 0 200px;
+   box-shadow: 2px 2px 6px rgb(175, 196, 202);
+   padding-top: 100px;
+    
+
+}
+.social-container{
+    width: 1200px;
+    margin: auto;
+    
+}
+.socialUp-parent{
+    display: flex;
+}
+    
+   
+    
+
+/* socialUp text css part start */
+.socialUp-text > h1{
+    width:60%;
+    color: #512152;
+    font-size: 3.5rem;
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+.socialUp-text > p{
+    width:75%;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.socialUp-text{
+    
+    width:600px;
+    margin-bottom: 80px;
+    
+}
+.socialUp-button{
+    width:600px;
+}
+.button{
+    display: flex;
+    width:440px;
+    gap:25px;
+    background-color: #F7F2F8;
+    margin-bottom: 10px;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+.btn-2{
+    margin-left: 30px;
+}
+.btn3{
+    margin-left: 60px;
+}
+.btn{
+    padding: 4px;
+}
+/* socialUp text css part End */
+
+
+
+/* socialUp box css part start */
+ 
+  .social-box-parent{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-around; */
+    margin: 0 auto;
+    gap: 40px;
+}
+    
+    
+ .box-1{
+    background-color: #512152;
+    width:350px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.box-profile1{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+
+.box-profile1 > img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right:20px ;
+    
+}
+  .span-text{
+    color: rgb(189, 92, 108);
+    margin-top: 5px;
+  } 
+  
+  .box1-p{
+    margin-top: 30px;
+    color: white;
+    line-height: 25px;
+  }
+  .box-2{
+    margin-top:15px;
+  }
+
+  .box-3{
+       margin-top: 30px;
+  }
+/* socialUp box css part end */
+
+@media screen and (max-width:577px) {
+    section{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 50px;
+        padding-top:0px;
+    }
+
+    
+     
+    
+    .social-container{
+        width: 100%;
+        margin: 0 auto;
+    }    
+    .socialUp-parent{
+        display: block;
+       flex-direction: column;
+    }
+
+    /* social up text responsive start */
+    .socialUp-text {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .socialUp-text > h1 {
+       
+        width: 100%;
+        color: #512152;
+        font-size: 2rem;
+        font-weight: 500;
+        justify-content: center;
+        text-align: center;
+        margin: 0px 0px;
+        padding: 0 0px;
+        font-weight: bold;
+    }
+    .socialUp-button {
+        width: 90%;
+        margin: auto;
+    }
+    .button {
+        display: block;
+        flex-direction: column;
+        width: 100%;
+        gap: 25px;
+        background-color: #F7F2F8;
+        margin-bottom: 10px;
+        padding: 20px 15px;
+        border-radius: 10px;
+        text-align: center;
+        
+    }
+      
+
+    .socialUp-text > p {
+        width: 100%;
+        line-height: 20px;
+        font-size: 12px;
+        padding: 0 0px;
+        text-align: center;
+    }
+
+    .btn{
+        padding:0;
+    }
+    .btn-2 {
+        margin-left: 0px;
+    }
+    .btn3 {
+        margin-left: 0;
+    } 
+
+    /* social up text responsive end */
+
+    /* socialUp box Responsive part start */
+
+    .social-box-parent {
+        display: block;
+        width: 90%;
+        /* justify-content: space-around; */
+        margin: 0 auto;
+        gap: 40px;
+    }
+
+  .box-1 {
+    background-color: #512152;
+    padding: 7%;
+    border-radius: 10px;
+    width: 100%;
+}
+.box-first{
+    margin-top: 30px;
+}
+}
